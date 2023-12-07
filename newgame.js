@@ -9,7 +9,6 @@ $(document).ready(function () {
 	$("#c10").hide();
 	$("#c11").hide();
 	$("#c12").hide();
-
 	$('.cell').on('click', function fetchboard() {
 		let inputvalue = $(this).val();
 		if (inputvalue == '') {
@@ -39,9 +38,10 @@ $(document).ready(function () {
 		}
 	});
 
-
 	$('#but').click(function () {
 		$('#b1, #b2, #b3,#b4, #b5, #b6,#b7, #b8, #b9').val("");
+
+		
 		$("#c10").hide();
 		$("#c11").hide();
 		$("#c12").hide();
